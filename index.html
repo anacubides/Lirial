@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      body, p {
+        font-family: 'Lato', sans-serif;
+      }
+      h1, h2, a {
+        font-family: 'Fraunces', serif;
+      }
+
+      /* EFECTO BOTÓN JUMBOTRON */
+      .btn-animado {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+      }
+      .btn-animado:hover {
+        transform: scale(1.1);
+        background: #ffc107;
+        color: #fff;
+      }
+
+      /* reveal al hacer scroll */
+      .reveal {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.8s ease;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/icono 2.png" type="image/png">
+    <title>Flores del Alma</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body class="bg_fondop">
+    <nav class="navbar navbar-expand-lg navbar-light mb-4 bg_fondo">
+      <img src="img/icono 2.png" alt="Placeholder image" width="25" class="img-fluid"> 
+      <a class="navbar-brand" href="#">&nbsp; Lirial<br></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> 
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent1">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item active"> <a class="nav-link" href="cuidados.html">Cuidados <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item"> <a class="nav-link" href="significados.html">Significados<br></a></li>
+        </ul>
+      </div>
+    </nav>
+	  <!-- JUMBOTRON  -->
+    <div class="container">
+      <div class="jumbotron bg_imagen mb-2 animate__animated animate__fadeIn">
+        <blockquote>
+          <h1 class="display-4 col-lg-8 mx-auto text-center bg_texto3">La belleza de las flores en un solo lugar</h1>
+        </blockquote>
+        <blockquote>
+          <p class="lead mx-auto col-lg-2 btn-block text-center">
+          
+            <a href="#flor" class="btn btn-light bg_texto2 btn-animado" type="button">Ver más</a>
+          </p>
+        </blockquote>
+      </div>
+		<!-- BIENVENIDA  -->
+      <div class="container bg_fondo reveal">
+        <p class="text-center py-2">&nbsp;Bienvenido a Flores del Alma</p>
+        <p class="text-center">Las flores son más que un detalle: son símbolos de vida, color y emoción. En esta página encontrarás un espacio dedicado a la belleza natural de cada pétalo, donde exploramos diferentes especies, sus significados y la inspiración que nos regalan en nuestro día a día.&nbsp;</p>
+        <p class="text-center">Déjate envolver por el lenguaje de las flores y descubre cómo cada una puede transmitir sentimientos únicos y especiales.</p>
+        <p id="flor">&nbsp;</p>
+      </div>
+		
+		<!-- SECCIÓN 1 -->
+      <section class="container my-5 reveal" id="sobre">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h2 class="fw-bold bg_texto2">Sobre las flores</h2>
+            <p>Además de su valor estético, las flores cumplen un papel fundamental en la naturaleza. A través de la polinización, permiten la reproducción de muchas especies de plantas y contribuyen al equilibrio de los ecosistemas. Sus colores y aromas no solo atraen a insectos y aves, sino que también han inspirado a la humanidad en la medicina, la literatura y el diseño. Cada flor encierra una historia que conecta lo natural con lo humano, recordándonos la importancia de cuidar y preservar la biodiversidad que nos rodea. Aquí descubrirás mucho más sobre ellas y encontrarás todo lo que necesitas saber para hacerlas parte de tu vida&nbsp; &nbsp;</p>
+          </div>
+          <div class="col-md-5"> 
+            <img src="img/3.jpg" alt="Ramo de flores" class="img-fluid rounded"> 
+          </div>
+        </div>
+      </section>
+		
+		<!-- SECCIÓN 2 -->
+      <section class="container bg_fondo reveal">
+        <h2 class="fw-bold text-center mb-3 bg_texto2">Beneficios</h2>
+        <div class="row text-center">
+          <div class="col-md-4"> 
+            <img src="img/icono 7.png" alt="Decoración" width="65" class="img-fluid mb-2">
+            <h5 class="fw-bold bg_texto3">Decoración</h5>
+            <p>Para embellecer espacios</p>
+          </div>
+          <div class="col-md-4"> 
+            <img src="img/icono 10.png" alt="Medicinales" width="45" class="img-fluid mb-2">
+            <h5 class="fw-bold bg_texto3">Usos medicinales</h5>
+            <p>En tratamientos y terapias</p>
+          </div>
+          <div class="col-md-4"> 
+            <img src="img/icon 9.png" alt="Artística" width="55" class="img-fluid mb-2">
+            <h5 class="fw-bold bg_texto3">Inspiración artística</h5>
+            <p>En pintura y literatura</p>
+          </div>
+        </div>
+      </section>
+ 
+		<!-- VIDEOS YT -->
+      <div class="row my-4 reveal">
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/upOHbEEw5J8?si=Z-Meg6ntIRjtz5jl" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N7Rc_m3PLbw?si=V980WUdPBxJPZTS8" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_4McnmAPXR0?si=JsBezgnN72i4xhrb" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+          <!-- SECCIÓN SOBRE NOSOTROS -->
+      <section class="container-fluid py-5 reveal">
+        <div class="container">
+
+          <div class="row align-items-center mb-5 bg_fondo">
+            <div class="col-md-6">
+              <div class="card p-4 shadow-sm bg_fondo22">
+                <h2 class="fw-bold mb-3" style="color:#5a4634;">Nuestra Historia</h2>
+<p>
+            <strong>Flores del Alma</strong> nació para compartir la magia de las flores y 
+                  el lenguaje secreto que esconden en cada pétalo. 
+                </p>
+                <p>
+                  Nuestro propósito es transformar momentos cotidianos en experiencias 
+                  llenas de color, belleza y emoción.
+                </p>
+                <a href="#contacto" class="btn btn-outline-dark mt-3">Conócenos más</a>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <img src="img/7.jpg" alt="Historia" class="img-fluid rounded shadow">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col text-center">
+              <h3 class="fw-bold" style="color:#4a3b2a; font-style:italic;">
+                “Las flores son la sonrisa de la naturaleza”
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN CONTACTO -->
+      <section id="contacto" class="container my-3 reveal active">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <h2 class="fw-bold mb-3">Contáctanos</h2>
+<p>Queremos acompañarte en cada ocasión especial. Escríbenos y descubre la magia de <strong>Flores del Alma</strong>.</p>
+            <address>
+              <strong>Flores del Alma</strong><br>
+              Calle de los Pétalos #123<br>
+              Bogotá, Colombia<br>
+              <abbr title="Phone">Tel:</abbr> +57 300 123 4567
+            </address>
+            <p><a href="mailto:info@floresdelalma.com">info@floresdelalma.com</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="text-center py-1" style="background-color:#e6e0d4;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="mb-0">© 2025 Flores del Alma · Todos los derechos reservados</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- necessary for Bootstrap's JavaScript plugins --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+    
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
+
+    <!-- SCROLL SUAVE + REVEAL -->
+    <script>
+     
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function(e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+          });
+        });
+      });
+
+  
+      function reveal() {
+        const reveals = document.querySelectorAll(".reveal");
+        for (let i = 0; i < reveals.length; i++) {
+          const windowHeight = window.innerHeight;
+          const elementTop = reveals[i].getBoundingClientRect().top;
+          const elementVisible = 100;
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          }
+        }
+      }
+      window.addEventListener("scroll", reveal);
+      reveal(); 
+    </script>
+	</div>
+  </body>
+</html>
