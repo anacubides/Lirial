@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.bg_imagen {
+	background-image: url(../img/6.jpg);
+	background-position: 0% -164%;
+	background-size: cover;
+}
+.bg_claro {
+	color: #FFFFFF;
+}
+.bg_texto {
+	color: #000000;
+	font-size: x-large;
+}
+
+.bg_fondo {
+    background-color: #f5f0e8;
+
+}
+.bg_fondo22 {
+    background-color: #e6e0d4;
+}
+
+.bg_tamaños {
+	min-height: 200px;
+}
+.bg_lineas {
+	border-width: 8cm;
+	border-color: #000000;
+}
+.bg_lila {
+	background-color: #C3A2ED;
+}
+.bg_naranja {
+	background-color: #D6940E;
+}
+.bg_rosa {
+	background-color: #A53C64;
+}
+.texto_r {
+	text-align: center;
+}
+
+.texto_bl {
+	color: #FFFFFF;
+}
+.navbar-rosa {
+	color: #CF51EA;
+}
+.bg_googlefonts {
+}
+.bg_imagend {
+
+
+
+
+
+
+}
+
+.dancing-font {
+  font-family: 'Dancing Script', cursive;
+}
+#girasol {
+}
+#lirios {
+}
+.bg_fondo2 {
+	background-image: url(../img/14.jpg);
+	background-position: 0% 39%;
+}
+#rosas {
+}
+.bg_card {
+	border-radius: 8px;
+	background-color: #fefbf8;
+}
+.bg_fondo3 {
+	background-color: rgba(255,255,255,0.63);
+
+}
+.Lato Script-font {
+    font-family: 'Lato', sans-serif !important;
+
+}
+.Fraunces-font {
+    font-family: 'Fraunces', serif !important;
+
+}
+.bg_texto2 {
+	color: #b55b35;
+
+}
+.bg_texto3 {
+	color: #5E2F1E;
+}
+.bg_fondop {
+    background-color: rgba(255,248,248,1.00);
+}
